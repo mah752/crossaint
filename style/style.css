@@ -1,9 +1,9 @@
     body {
         background-color: rgb(185, 159, 13);
-        background-repeat: no-repeat;
-        display: block;
+        display: inline-block;
         justify-content: center;
         text-align: center;
+        margin: 0 auto;
     }
     
      :root {
