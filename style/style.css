@@ -40,7 +40,7 @@
         background-color: var(--tietary-color);
     }
     
-    .croissant-pictures {
+    .croissant-pictures img {
         display: flex;
         justify-content: space-evenly;
     }
