@@ -1,8 +1,9 @@
     body {
-        background-color: rgb(255, 244, 184);
+        background-color: rgb(185, 159, 13);
         background-repeat: no-repeat;
         display: block;
         justify-content: center;
+        text-align: center;
     }
     
      :root {
