@@ -13,6 +13,14 @@
         --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
     }
     
+    h1,
+    h2,
+    p {
+        color: var(--font-color);
+        text-align: center;
+        display: block;
+    }
+    
     .page-links {
         display: flex;
         margin-top: 40px;
