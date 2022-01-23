@@ -1,68 +1,75 @@
-    body {
-        background-color: rgb(178, 155, 145);
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-     :root {
-        --font-color: #161853;
-        --primary-color: #292c6d;
-        --secondary-color: #faedf0;
-        --tietary-color: #ec255a;
-        --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-    }
-    
-    h1,
-    h2,
-    p {
-        color: var(--font-color);
-        text-align: center;
-        display: block;
-        background-color: rgb(178, 155, 145);
-    }
-    
-    .page-links {
-        display: flex;
-        margin-top: 40px;
-        justify-content: center;
-    }
-    
-    .page-links a {
-        margin: 20px;
-        border-radius: 4px;
-        padding: 20px 15px;
-        text-decoration: none;
-        text-transform: capitalize;
-    }
-    
-    .contact-link {
-        background: var(--primary-color);
-        box-shadow: var(--box-shadow);
-        color: var(--secondary-color);
-        border: 1px solid var(--tietary-color);
-        text-align: center;
-    }
-    
-    .contact-link h1 {
-        text-align: center;
-    }
-    
-    .home-link {
-        background: var(--primary-color);
-        box-shadow: var(--box-shadow);
-        color: var(--secondary-color);
-        border: 1px solid var(--tietary-color);
-        text-align: center;
-    }
-    
-    .photo-link {
-        color: var(--font-color);
-        border: 1px solid var(--primary-color);
-        background-color: var(--tietary-color);
-    }
-    
-    .container {
-        display: flex;
-        flex-direction: row;
-    }
+        body {
+            background-color: rgb(178, 155, 145);
+            display: flex;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+         :root {
+            --font-color: #161853;
+            --primary-color: #292c6d;
+            --secondary-color: #faedf0;
+            --tietary-color: #ec255a;
+            --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        }
+        
+        .container {
+            margin: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        h1,
+        h2,
+        p {
+            color: var(--font-color);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(178, 155, 145);
+        }
+        
+        .page-links {
+            display: flex;
+            margin-top: 40px;
+            justify-content: center;
+        }
+        
+        .page-links a {
+            margin: 20px;
+            border-radius: 4px;
+            padding: 20px 15px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+        
+        .contact-link {
+            background: var(--primary-color);
+            box-shadow: var(--box-shadow);
+            color: var(--secondary-color);
+            border: 1px solid var(--tietary-color);
+            text-align: center;
+        }
+        
+        .contact-link h1 {
+            text-align: center;
+        }
+        
+        .home-link {
+            background: var(--primary-color);
+            box-shadow: var(--box-shadow);
+            color: var(--secondary-color);
+            border: 1px solid var(--tietary-color);
+            text-align: center;
+        }
+        
+        .photo-link {
+            color: var(--font-color);
+            border: 1px solid var(--primary-color);
+            background-color: var(--tietary-color);
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
